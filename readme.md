@@ -3,8 +3,4 @@
 - Responsive web design
 - Using API of Quotable [https://docs.quotable.io/docs/api/ZG9jOjQ2NDA2-introduction]
 
-# Screenshot
 
-
-
-# Stylesheet

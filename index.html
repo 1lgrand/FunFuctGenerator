@@ -4,21 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fun Fucts Generator</title>
-    <script src="static/script.js"></script>
+    <title>Quote Generator</title>
+    <script src="static/script.js">randomQuote()</script>
     <link rel="stylesheet" href="static/style.css">
 </head>
-<body>
+<body onload="randomQuote()">
 
     <h1 id="heading">Quote Generator</h1>
 
     <div class="container">
-        <div class="card">
-            <p id="quote">"<span style="color: green;">Ciao</span>"</p>
-            <small id="author">Pino</small>
+        <div id="card">
+            <p id="pQuote" style="color: rgb(76, 189, 76)">"<span id="quote">Loading...</span>"</p>
+            <div id="footerCard">
+                <small id="author" style="text-align: right;"></small>
 
-            <button value="" class="button" onclick="randomQuote()">Generate another one</button>
+                
+            </div>
+
+            <center><button value="" class="button" onclick="randomQuote()">New Quote</button> </center>
+
         </div>
+        
+
 
     </div>
     
